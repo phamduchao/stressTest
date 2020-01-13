@@ -1,0 +1,46 @@
+#appay-tabs {
+    background-color: #006ae5;
+    height: 40px;
+    padding-left: 2%;
+}
+.appay-tab-item {
+    color: #fff;
+    cursor: pointer;
+    float: left;
+    font-weight: bold;
+    line-height: 40px;
+    margin-right: 1px;
+    text-align: center;
+    width: 24%;
+}
+.appay-tab-item .item-name {
+    float: left;
+    width: 90%;
+}
+.appay-tab-item .item-close {
+    float: right;
+    width: 10%;
+}
+.appay-tab-item a {
+    float: right;
+    position: relative;
+    right: 7px;
+    z-index: 100;
+}
+.appay-tab-item .fa-remove {
+    color: #d0021b;
+}
+.appay-panel-item {
+    display: none;
+    overflow-y: scroll;
+    padding: 10px 30px;
+    width: 100%;
+}
+.appay-panel-item.active{
+    display: block;
+}
+.appay-tab-item.active {
+    background-color: #fff;
+    color: #373737;
+    opacity: 1;
+}

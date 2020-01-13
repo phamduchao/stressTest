@@ -1,0 +1,384 @@
+body{
+    font-family: Helvetica, "open sans", Arial, sans-serif;
+}
+.access-background{
+    background-image: url("/assets/layout/img/access-bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.access-background .logo{
+    width: 100%;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.access-background .logo img{
+    max-width: 130px;
+}
+
+.access-layout .loginscreen.middle-box{
+    width: auto;
+}
+
+.loginscreen-bordered{
+    border-radius: 8px;
+    background-color: #fff;
+    margin: 0 auto;
+    padding: 10px 20px;
+    box-shadow: 2px 2px 10px #aaa;
+}
+
+.loginscreen-bordered input{
+    border: none;
+    margin-top: 8px;
+    padding-left: 0;
+    font-size: 17px;
+    font-weight: 200;
+}
+
+.loginscreen-bordered input:first-child{
+    border-bottom: 1px solid #E2E2E2;
+}
+
+.access-layout form{
+    margin-top: 60px;
+    font-family: Helvetica, "open sans", Arial, sans-serif;
+}
+
+.btn-access{
+    background: url("/assets/layout/img/btn-access.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 170px;
+    border: none;
+    height: 45px;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.forogt-password{
+    color: #1B94E3;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.fwb{
+    font-weight: bold;
+}
+
+.left-arrow{
+    background: url("/assets/layout/img/left-arrow.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 13px;
+    border: none;
+    height: 26px;
+}
+
+.nav-back{
+    font-weight: 100;
+    margin-top: 5px !important;
+    margin-left: 8px !important;
+}
+.nav-back i{
+    font-weight: 100;
+    font-size: 40px;
+}
+.navbar-header-custom{
+    width: auto;
+    text-align: center;
+    padding: 10px 20px;
+}
+.navbar-header-title{
+    font-weight: 200;
+    margin-bottom: 0;
+}
+.navbar-header-desc{
+    font-weight: 400;
+}
+.navbar-fixed-top{
+    height: 60px;
+}
+.nav-clock{
+    font-size: 10px;
+    margin: 9px 3px !important;
+}
+.page-content{
+    /*margin-top: 60px;*/
+}
+.working-sales-box{
+    padding: 10px;
+    height: 130px;
+    display: block;
+}
+.working-commission-box{
+    width: 63%;
+    float: left;
+    border-radius: 3px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.working-box-title{
+    text-align: center;
+    color: #000;
+    opacity: 0.5;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.working-box-total a{
+    width: 14px;
+    height: 16px;
+    display: block;
+    float: left;
+}
+.working-box-total a img{
+    width: 14px;
+    height: 16px;
+}
+.working-box-total span{
+    float:  left;
+}
+.working-box-total{
+    text-align: center;
+    margin: 12px auto 0;
+}
+.list-inline>li{
+    width: 31%;
+}
+
+p.text-muted{
+    margin-bottom: 0;
+}
+
+.point-reward-box{
+    width: 34%;
+    float: right;
+}
+
+.working-commission-box small{
+    font-size: 86%;
+}
+.working-tabs{
+    text-align: center;
+    margin: 15px 0 0;
+}
+.working-tab-item{
+    width: 32.44%;
+    display: inline-block;
+    text-align: center;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #DCDCDC;
+}
+.working-content .blue,
+.text-blue{
+    color: #009DF7;
+}
+.working-content .yellow,
+.text-yellow{
+    color: #FFAA00;
+}
+.working-content .red,
+.text-red{
+    color: #FF0B0B;
+}
+.text-black{
+     color: #000;
+ }
+.working-tab-content{
+    /*border-top: 1px solid #DCDCDC;*/
+    background-color: #fff;
+    display: block;
+}
+
+.working-tab-content-header{
+    border-bottom: 1px solid #DCDCDC;
+    padding: 13px 15px 0 15px;
+    height: 45px;
+
+    margin-top: -1px;
+    border-top: 1px solid #E2E2E2;
+}
+.working-tab-content-panel{
+    padding: 0 15px;
+}
+.working-tab-content-item{
+    /*border-bottom: 1px solid #E2E2E2;*/
+    padding-top: 20px;
+}
+.working-tab-content-panel .black{
+    color: #000;
+}
+.working-tab-content-panel p{
+    width: 100%;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+.working-tab-content-goto{
+    position: relative;
+    right: 0px;
+    top: -80px;
+    float: right;
+}
+
+.active.success{
+    color: #14A3FA;
+    border-bottom: 1px solid #14A3FA;
+}
+.active.warning{
+    color: #FFAA00;
+    border-bottom: 1px solid #FFAA00;
+}
+.active.danger{
+    color: #FF0B0B;
+    border-bottom: 1px solid #FF0B0B;
+}
+
+.profile-header{
+    text-transform: uppercase;
+    padding: 10px 15px;
+    background-color: #F5F5F5;
+}
+.profile-form{
+    background-color: #fff;
+    width: 100%;
+    padding: 20px 5px;
+}
+.profile-control{
+    margin-bottom: 20px;
+}
+.profile-control input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 0px;
+    font-size: 13px;
+    color: #000 !important;
+}
+.working-old-month{
+    float: right;
+    font-size: 12px;
+    padding-top: 1px;
+}
+.profile-submit-form{
+    text-align: center;
+    margin-top: 35px;
+}
+button.btn-customer-layout{
+    background: url("/assets/layout/img/btn-background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    width: 160px;
+    height: 40px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+}
+.profile-submit-form a{
+    font-size: 13px;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.profile-form label{
+    font-weight: 400;
+}
+
+.row,input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+    margin-bottom: 1px !important;
+}
+
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+    height: 2.2rem !important;
+    font-size: 0.9rem !important;
+}
+.input-field label{
+    font-size: 0.9rem !important;
+    top: 12px !important;
+}
+.input-field.col label{
+    line-height: 0em !important;
+}
+
+/* label color */
+.input-field label {
+    color: #000 !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: #000 !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #1788DD !important;
+    box-shadow: none !important;
+}
+/* valid color */
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #1788DD !important;;
+    box-shadow: none !important;
+}
+/* invalid color */
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #1788DD !important;;
+    box-shadow: none !important;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+    color: #000 !important;
+}
+
+.modal{
+    background: none !important;
+    border-radius: 6px !important;
+}
+.modal-title{
+    font-size: 12px;
+}
+.modal-warning{
+    font-size: 12px;
+    color: #000;
+    opacity: 0.5;
+    margin: 20px auto;
+}
+.modal-content{
+     -webkit-background-clip: none;
+     background-clip: none;
+     border: none;
+     border-radius: 0;
+     outline: none;
+     -webkit-box-shadow: none;
+     box-shadow: none;
+}
+.modal .modal-footer{
+    background-color: #F2F2F2;
+    border: 0
+}
+
+.working-history-panel{
+    padding: 15px;
+    background-color: #fff;
+}
+.working-history-item{
+    border-bottom: 1px solid #F2F2F2;
+    padding-top: 10px;
+}
+.working-history-item:first-child{
+    padding-top: 0;
+}
+.working-history-item .working-tab-content-goto{
+    top: -55px;
+}
+.fw200{
+    font-weight: 200;
+}
+.fs12{
+    font-size: 12px;
+}

@@ -1,0 +1,95 @@
+
+body {
+    font-size: 14px;
+}
+
+.hero-text-1 {
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.hero-text-1-bg-cover {
+    padding: 45px;
+}
+
+.hero-text-4 {
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.hero-text-6 {
+    font-size: 11px;
+    line-height: 1.4;
+}
+
+/* For large and up */
+@media only screen and (min-width: 360px) {
+    .hero-text-1 {
+        font-size: 64px;
+        line-height: 1.4
+    }
+
+    .hero-text-1-bg-cover {
+        padding: 52px;
+    }
+
+    .hero-text-4 {
+        font-size: 16px;
+        line-height: 1.4
+    }
+
+    .hero-text-6 {
+        font-size: 12px;
+        line-height: 1.4
+    }
+
+    body {
+        font-size: 15px;
+    }
+}
+
+.head_banner {
+    padding: 1px 10px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.head_banner_green {
+    background-color: #4e823b;
+}
+
+.head_banner_red {
+    background-color: #c90412;
+}
+
+.head_banner_blue {
+    background-color: #255594;
+}
+
+.text_blue {
+    color: #255594;
+}
+
+.text_red {
+    color: #c90412;
+}
+
+.bolder {
+    font-weight: bold;
+}
+
+.bg-cover-img1 {
+    background-image: url(../img/1/1_1.png);
+    height: 100%;
+}
+.bg-cover-img2 {
+    background-image: url(../img/4/4_2.png);
+    height: 100%;
+}
+
+.bg-cover, .bg-parallax {
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    position: relative;
+}
